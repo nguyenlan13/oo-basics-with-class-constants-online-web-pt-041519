@@ -6,6 +6,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
+    if !BRANDS.index(brand)
     BRANDS << brand
     
   end
